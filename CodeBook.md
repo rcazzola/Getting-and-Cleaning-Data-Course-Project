@@ -3,6 +3,8 @@
 This document provides information about the generated sets by the script `run_analysis.R`, provided in this repository.
 
 ###Variables
++ features
++ activityType
 + xTrain
 + yTrain
 + xTest
