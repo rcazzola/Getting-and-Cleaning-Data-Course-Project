@@ -12,6 +12,7 @@ This document provides information about the generated sets by the script `run_a
 + subjectTrain
 + subjectTest
 
+###Description
 + `xTrain`, `yTrain`, `xTest`, `yTest`, `subjectTrain` and `subjectTest` contain the data from the downloaded files
 + `trainingData` and `testData` merge the previous datasets to further analysis
 + `finalData` contains the relevant averages which will be later stored in a `.txt` file
