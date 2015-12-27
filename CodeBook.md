@@ -9,7 +9,6 @@ This document provides information about the generated sets by the script `run_a
 + yTest
 + subjectTrain
 + subjectTest
- 
 
 + `xTrain`, `yTrain`, `xTest`, `yTest`, `subjectTrain` and `subjectTest` contain the data from the downloaded files
 + `trainingData` and `testData` merge the previous datasets to further analysis
