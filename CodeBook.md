@@ -2,6 +2,15 @@
 
 This document provides information about the generated sets by the script `run_analysis.R`, provided in this repository.
 
+###Description
++ `xTrain`, `yTrain`, `xTest`, `yTest`, `subjectTrain` and `subjectTest` contain the data from the downloaded files
++ `trainingData` and `testData` merge the previous datasets to further analysis
++ `finalData` contains the relevant averages which will be later stored in a `.txt` file
+
+###Identifiers
++ `subject` - The ID of the test subject
++ `activity` - The type of activity performed when the corresponding measurements were taken
+
 ###Variables
 + features
 + activityType
@@ -12,14 +21,7 @@ This document provides information about the generated sets by the script `run_a
 + subjectTrain
 + subjectTest
 
-###Description
-+ `xTrain`, `yTrain`, `xTest`, `yTest`, `subjectTrain` and `subjectTest` contain the data from the downloaded files
-+ `trainingData` and `testData` merge the previous datasets to further analysis
-+ `finalData` contains the relevant averages which will be later stored in a `.txt` file
-
-
 ###Activity Labels
-
 + WALKING (value 1): subject was walking during the test
 + WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
 + WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
